@@ -1,0 +1,61 @@
+.form {
+	margin: auto;
+	width: 90%;
+	max-width: 300px;
+}
+
+.form-container {
+  grid-gap: 25px;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-title {
+  color: var(--secondary);
+}
+
+.form-paragraph {
+  color: var(--secondary);
+}
+
+.form-link {
+  color: var(--focus);
+}
+
+.form-link:hover {
+  text-decoration: underline;
+}
+
+.form-text {
+  color: var(--error);
+	font-size: 13px;
+  width: 100%;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.form-text.active {
+  display: block;
+}
+
+.form-success {
+  color: var(--success);
+  width: 100%;
+}
+
+.form-success.active {
+  display: block;
+}
+
+.form-error {
+  color: var(--error);
+  width: 100%;
+}
+
+.form-error.active {
+  display: block;
+}
+
+

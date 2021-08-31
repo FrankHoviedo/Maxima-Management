@@ -1,0 +1,50 @@
+.form {
+	margin: auto;
+	width: 90%;
+	max-width: 300px;
+}
+
+.form-container {
+  grid-gap: 40px;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-title, .form-paragraph {
+  color: var(--secondary);
+}
+
+.form-link {
+  color: var(--focus);
+}
+
+.form-link:hover {
+  text-decoration: underline;
+}
+
+.form--error {
+  visibility: visible!important;
+  color: var(--error);
+	font-size: 13px;
+  width: 100%;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.form-text {
+  visibility: hidden;
+}
+
+.form--success {
+  color: var(--success);
+  font-size: 16px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+

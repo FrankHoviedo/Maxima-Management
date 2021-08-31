@@ -1,0 +1,23 @@
+*, body {
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+}
+
+:root {
+  --primary: #fff;
+  --secondary: #3022ff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}

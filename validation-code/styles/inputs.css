@@ -1,0 +1,16 @@
+input, .input {
+  border: 1px solid var(--gray);
+  height: 35px;
+  line-height: 35px;
+  border-radius: 5px;
+  padding-left: 10px;
+  transition: 0.25s ease;
+}
+
+input:focus,
+  .input:focus {
+    border: 1px solid var(--focus);
+    box-shadow: 5px 4px 6px 5px rgba(0,0,0,0);
+    outline: none;
+}
+

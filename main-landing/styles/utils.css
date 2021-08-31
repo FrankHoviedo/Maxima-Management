@@ -1,0 +1,45 @@
+.font-small {
+  font-size: 16px;
+}
+
+.font-medium {
+  font-size: 20px;
+}
+
+.font-big {
+  font-size: 30px;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-none {
+  display: none;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+

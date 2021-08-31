@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,400;1,600&family=Roboto:wght@300&display=swap');
+
+*, body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #fff;
+  --secondary: #3e3e3a;
+  --gray: #bebaf5;
+  --error: #dd3c3d;
+  --focus: #0075FF;
+  --success: #43df40;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+

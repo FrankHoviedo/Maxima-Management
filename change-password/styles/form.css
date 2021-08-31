@@ -1,0 +1,23 @@
+.message {
+  color: var(--primary);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.message-error {
+  background-color: var(--wrong);
+}
+
+.message-successful {
+  background-color: var(--success);
+}
+
+.forgot-pass {
+  color: var(--focus);
+}
+
+.forgot-pass:hover {
+  text-decoration: underline;
+}
+
+

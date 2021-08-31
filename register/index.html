@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registro de Usuario - Maxima Management</title>
+	 
+	<link rel="stylesheet" href="styles/overrides.css">
+	<link rel="stylesheet" href="styles/containers.css">
+	<link rel="stylesheet" href="styles/form.css">
+	<link rel="stylesheet" href="styles/inputs.css">
+	<link rel="stylesheet" href="styles/utils.css">
+	<link rel="stylesheet" href="styles/buttons.css">
+	<link rel="stylesheet" href="styles/images.css">
+	<link rel="stylesheet" href="styles/icons.css">
+	<link rel="stylesheet" href="styles/media-query.css">
+
+</head>
+<body>
+
+	<div class="container">
+		<form action="#" class="form" id="form">
+      <h2 class="form-title font--big text-align-center mb-20">Maxima Management</h2>
+      <p class="form-paragraph">Do you already have an account? <a href="../login/index.html" class="form-link">Click here</a></p>
+
+      <div class="form-container mt-40 d-grid">
+
+    		<!-- Grupo: Usuario -->
+    		<div class="form-group" id="group-user">
+    			<input type="text" class="form-input" name="user" id="user" placeholder=" ">
+    			<label for="user" class="form-label">Usuario *</label>
+    			<p class="form-text d-none">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo</p>
+    		</div>
+
+    		<!-- Grupo: E-mail Address -->
+    		<div class="form-group" id="group-address">
+    			<input type="email" class="form-input" name="address" id="address" placeholder=" ">
+          <label for="address" class="form-label">Correo Electrónico *</label>
+    			<p class="form-text d-none">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo</p>
+    		</div>
+
+    		<!-- Grupo: Password -->
+    		<div class="form-group" id="group-keyword">
+    			<input type="password" class="form-input" name="password" placeholder=" " id="keyword">
+          <label for="keyword" class="form-label">Contraseña *</label>
+    			<p class="form-text d-none">La contraseña debe tener de 4 a 16 dígitos</p>
+    		</div>
+
+    		<!-- Grupo: Confirm password -->
+    		<div class="form-group" id="group-confirm-keyword">
+    			<input type="password" class="form-input" name="confirm-keyword" placeholder=" " id="confirm-keyword">
+          <label for="confirm-keyword" class="form-label">Repetir Contraseña *</label>
+    			<p class="form-text d-none">Las contraseñas deben ser iguales</p>
+    		</div>
+
+    		<div class="form-message align-items-center d-flex" id="form-message">
+          <img src="./icons/times-circle-solid.svg" class="icon d-none mr-5" id="error-icon" alt="Times-circle">
+    			<p class="form-error d-none font--small" id="form-error">Debe completar los campos correctamente*</p>
+    		</div>        
+
+        <button type="submit" class="btn">Enviar</button>
+    		
+        <div class="form-message align-items-center d-flex" id="form-message">
+          <img src="./icons/check-circle-solid.svg" class="icon d-none mr-5" id="success-icon" alt="Check-circle">
+    		  <p class="form-success d-none font--small" id="form-success">Usuario registrado exitosamente</p>
+    	  </div>
+
+      </div>
+
+		</form>
+	</div>
+
+<script src="scripts/src/form.js"></script>
+</body>
+
+
+</html>
+
+

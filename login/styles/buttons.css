@@ -1,0 +1,11 @@
+.btn {
+	background: var(--focus);
+  color: var(--primary);
+  font-size: 16px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+

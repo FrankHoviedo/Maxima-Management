@@ -1,0 +1,65 @@
+.font--small {
+  font-size: 16px;
+}
+
+.font--medium {
+  font-size: 20px;
+}
+
+.font--big {
+  font-size: 30px;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-none {
+  display: none;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.m-sides-20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.text-align-center {
+  text-align: center;
+}
+

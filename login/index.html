@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./styles/overrides.css">
+  <link rel="stylesheet" type="text/css" href="./styles/containers.css">
+  <link rel="stylesheet" type="text/css" href="./styles/images.css">
+  <link rel="stylesheet" type="text/css" href="./styles/buttons.css">
+  <link rel="stylesheet" type="text/css" href="./styles/utils.css">
+  <link rel="stylesheet" type="text/css" href="./styles/form.css">
+  <link rel="stylesheet" type="text/css" href="./styles/inputs.css">
+  <link rel="stylesheet" type="text/css" href="./styles/media-query.css">
+
+
+  <script src="https://kit.fontawesome.com/3bbe6b7764.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Maxima Management - Login</title>
+</head>
+  <body>
+  	<div class="container d-flex">
+      <form class="form text-align-center" id="form">
+        <h2 class="form-title mb-20">Maxima Management</h2>
+        <p class="form-paragraph">Do you not have an account? <a href="../register/index.html" class="form-link">Click here</a></p>
+
+        <div class="form-container mt-40 d-grid">
+          <div class="form-group" id="form-colection">
+            <input type="text" id="username" class="form-input" placeholder=" ">
+            <label id="username-label" for="username" class="form-label">Username *</label>
+            <p id="username-text" class="form-text">Debes colocar un usario *</p>
+          </div>
+          <div class="form-group" id="form-colection">
+            <input type="password" id="password" class="form-input" placeholder=" ">
+            <label id="password-label" for="password" class="form-label">Password *</label>
+            <p id="password-text" class="form-text">Debes colocar una contraseña *</p>
+            <p class="text-align-right mt-10"> 
+          	 <a href="../forgot-password/index.html" class="form-link">Forgot your password?</a>
+            </p>
+          </div>
+          <input type="submit" class="btn" value="Login">
+        </div>
+      </form>
+
+    </div>
+            
+
+    <script src="./src/scripts/form.js"></script>
+
+  </body>
+
+
+</html>
+

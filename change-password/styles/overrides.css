@@ -1,0 +1,34 @@
+*, body {
+  margin: 0;
+  font-family: "Varela Round", san serif;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #fff;
+  --secondary: #3022ff;
+  --gray: #bebaf5;
+  --success: #119200;
+  --wrong: #bb2929;
+  --focus: #0075FF;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+

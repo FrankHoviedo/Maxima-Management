@@ -1,0 +1,21 @@
+@media (max-width: 720px) {
+	.card {
+		width: 100%;
+		box-shadow: unset;
+		padding: unset;
+	}
+
+  .btn-block {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .m-sides-20 {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+
